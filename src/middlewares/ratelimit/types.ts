@@ -1,13 +1,10 @@
+export type Options = {
+  windowMs: number;
 
-
-export type Options ={
-    
-    windowMs : number
-
-    limit: number
-}
+  limit: number;
+};
 
 export type ClientRateLimitInfo = {
-	hits: number
-	resetTime: Date
-}
+  hits: number;
+  resetTime: Date;
+};

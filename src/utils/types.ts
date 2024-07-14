@@ -1,4 +1,4 @@
-export type CommonResponse={
-    message:string,
-    success:boolean
-}
+export type CommonResponse = {
+  message: string;
+  success: boolean;
+};
